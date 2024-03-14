@@ -1,0 +1,27 @@
+.divi{
+    display: flex;
+    background-color: rgb(205, 255, 222);
+}
+.divi1{
+    display: flex;
+    text-align: center;
+    background-color: rgb(205, 255, 222);
+}
+
+.imagen-redonda {
+    width: 200px; /* Ancho de tu imagen */
+    height: 200px; /* Alto de tu imagen */
+    overflow: hidden; /* Para ocultar las esquinas que sobresalen de la forma redonda */
+    border-radius: 50%; /* Establece el radio de los bordes para hacer la imagen redonda */
+    background-color: rgb(205, 255, 222);
+}
+
+.imagen-redonda img {
+    width: 100%; /* Asegura que la imagen se ajuste al contenedor redondo */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente */
+    display: block; /* Evita los espacios vacíos debajo de la imagen */
+    background-color: rgb(205, 255, 222);
+}
+body{
+    background-color: maroon);
+ }
